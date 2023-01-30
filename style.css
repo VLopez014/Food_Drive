@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+header {
+  padding: 24px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 80px 0;
+}
+
+.menu__title {
+  text-align: center;
+}
+
+pupusas__wrapper {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.pupusa__img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.pache__arroz--wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.pache__arroz--img {
+  width: 100%;
+  margin-left: -10px;
+  height: 100%;
+  transform: scale(1.1);  
+}
+
+.pache__papa--wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.pache__papa--img {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.tacos__dorados--wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tacos__dorados--img {
+  width: 100%;
+}
