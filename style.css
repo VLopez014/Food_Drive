@@ -7,7 +7,7 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   line-height: 1.5em;
-  background-color: rgb(255, 255, 255);
+  background-color: #ff7b00;
 }
 
 #food_drive {
@@ -17,16 +17,24 @@
   margin: 0 auto;
 }
 
+p {
+  text-align: center;
+  margin: 4px 0;
+  line-height: 1.5em;
+}
+
 h1 {
   font-size: 24px;
   margin: 16px 0;
+  text-align: center;
 }
-ul {
-  margin-bottom: 12px;
+
+h2 {
+  text-align: center;
 }
 
 li {
-  margin: 12px 20px;
+  margin: 8px 16px;
 }
 
 .bold {
@@ -62,23 +70,24 @@ figure {
 }
 
 .food_items {
-  padding-bottom: 24px;
+  border: 2px solid black;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 400px) {
   figure {
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
   }
 
   .paches--wrapper {
-    width: 150px;
-    height: 150px;
-    border: 5px solid green;
+    width: 120px;
+    height: 120px;
+    border: 2px solid green;
   }
 
   .tacos__dorados--wrapper {
-    border: 5px solid red;
+    border: 2px solid red;
     margin-left: -30px;
   }
 
@@ -88,7 +97,7 @@ figure {
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   ul {
