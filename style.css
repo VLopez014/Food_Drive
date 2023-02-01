@@ -79,7 +79,7 @@ figure {
   margin-bottom: 12px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   figure {
     width: 95px;
     height: 95px;
